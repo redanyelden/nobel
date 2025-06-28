@@ -1,0 +1,52 @@
+.title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.inputSearch {
+    margin-bottom: 12px;
+    margin-left: 10px;
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.yearInputs {
+    display: flex;
+    gap: 8px;
+    max-width: 400px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.yearInput {
+    padding: 8px;
+    width: 48%;
+    box-sizing: border-box;
+}
+
+.categoryButtons {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.categoryButton {
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #eee;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.categoryButton.selected {
+    background-color: #6b6e72;
+    color: white;
+}
